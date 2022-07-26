@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+
+    --font-family-titles: 'Passion One', cursive;
+    --font-family-text:'Work Sans', sans-serif;
+
+    --purple-light-1: #FBFAFB;
+    --purple-light-2: #EEEAF2;
+    --purple-medium-1: #AA83C8;
+    --purple-medium-2: #8B48BF;
+    --purple-medium-3: #5C218A;
+    --purple-dark-1: #3E0F64;
+    --purple-dark-2: #2A0646;
+  
+    --yellow: #EECC75;
+    --green: #CAD297;
+    --aqua: #B7EAC5;
+    --lightBlue: #A2EEE5;
+    --darkBlue: #8EA2EA;
+    --red: #F09D9D;
+
+    --font-weight-title1: 700;
+    --font-weight-title2: 700;
+    --font-weight-text1: 400;
+    --font-weight-text2: 500;
+  
+}
+
+html{
+    font-size: 62.5%;
+    min-width: 288px;
+   max-width: 1080px;
+  
+}
+
+body{
+    background-color: var(--purple-light-1);
+    color: var(--purple-dark-2);
+    font-family: var(--font-family-text);
+    font-weight: var(--font-weight-text1);
+    font-size: 1.6rem;
+    margin: 4px 0 0 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    cursor: pointer
+}
+
+h1, h2 {
+    font-size: 3rem;
+    color: var(--purple-dark-2);
+    font-family: var(--font-family-titles);
+    font-weight: var(--font-weight-title1);
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 2rem;
+    color: var(--purple-dark-1);
+    font-weight: var(--font-weight-title2);
+  }
+  
+  h3 {
+    color: var(--purple-dark-2);
+    font-weight: var(--font-weight-text2);
+    font-size: 2rem;
+  }
+  
+  input {
+    background-color: var(--purple-light-2);
+    color: var(--purple-medium-2);
+    border: none;
+    font-size: 1.8rem;
+    padding-left: 1.6rem;
+    border-radius: 8px;
+  }
+
+input::placeholder {
+    color: var(--purple-medium-1);
+    font-family: var(--font-family-text);
+    font-size: 1.4rem;
+  }
+
+button {
+    background-color: var(--purple-dark-1);
+    border: none;
+    color: var(--purple-light-2);
+    font-weight: var(--font-weight-text2);
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+.trendingPreview-btn {
+
+    width: 80px;
+    height: 20px;
+    margin-bottom: 20px;
+    cursor: pointer
+}
+
+.header-container, .trendingPreview-container, .categoriesPreview-container, .genericList-container, .movieDetail-container, footer {
+
+    margin-left: 30px;
+    margin-bottom: 30px;
+ 
+}
+
+.trendingPreview-movieList, .genericList-container {
+    margin-left: 80px;
+}
+
+.trendingPreview-movieList, .genericList-container{
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr  ;
+    grid-template-rows: auto;
+    align-items: center;
+    gap: 10px;
+    
+
+}
+
+img {
+    height:250px  ;
+    width: 180px ;
+    border-radius: 8px ;
+    cursor: pointer
+}
+
+/*****************************************/
+
+.category-title::before {
+    content: '••••';
+    color: transparent;
+    /* TODO: cambiar color por ID de la categoría */
+    background-color: var(--idColor);
+    border-radius: 8px;
+    margin-right: 8px;
+    margin-top: 20px ;
+    width: 8px;
+    height: 8px;
+  }
+  #id28 { --idColor: var(--yellow); }
+  #id12 { --idColor: var(--red); }
+  #id16 { --idColor: var(--green); }
+  #id35 { --idColor: var(--lightBlue); }
+  #id80 { --idColor: var(--darkBlue); }
+  #id99 { --idColor: var(--purple-dark-1); }
+  #id18 { --idColor: var(--purple-medium-1); }
+  #id10751 { --idColor: var(--yellow); }
+  #id14 { --idColor: var(--red); }
+  #id36 { --idColor: var(--green); }
+  #id27 { --idColor: var(--lightBlue); }
+  #id10402 { --idColor: var(--darkBlue); }
+  #id9648 { --idColor: var(--purple-dark-1); }
+  #id10749 { --idColor: var(--purple-medium-1); }
+  #id878 { --idColor: var(--yellow); }
+  #id10770 { --idColor: var(--red); }
+  #id53 { --idColor: var(--green); }
+  #id10752 { --idColor: var(--lightBlue); }
+  #id37 { --idColor: var(--darkBlue); }
+  
+  
+  /* Generic List (search, trending & category) */
+
+  
+
+
+  /* Movie Detail */
+
+  .movieDetail-Score{
+
+    font-weight: 700;
+    font-size: 2.0rem;
+    margin-bottom: 30px;
+  }
+
+  .movieDetail-description {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+
+  }
+
+  
+
+  
+
+
+

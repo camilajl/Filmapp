@@ -1,0 +1,24 @@
+{
+  "name": "filmapp",
+  "version": "1.0.0",
+  "description": "APP DE PELICULAS Y SERIES",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camilajl/Filmapp.git"
+  },
+  "keywords": [
+    "API",
+    "JavaScript",
+    "HTML"
+  ],
+  "author": "Camila Jimenez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/camilajl/Filmapp/issues"
+  },
+  "homepage": "https://github.com/camilajl/Filmapp#readme"
+}
