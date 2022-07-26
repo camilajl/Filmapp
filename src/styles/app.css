@@ -122,13 +122,16 @@ button {
 
 .trendingPreview-movieList, .genericList-container{
 
+    overflow: auto;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr  ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
     grid-template-rows: auto;
     align-items: center;
     gap: 10px;
-    
+   
+  
+  
 
 }
 
